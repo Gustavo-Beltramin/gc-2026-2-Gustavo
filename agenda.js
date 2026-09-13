@@ -85,7 +85,7 @@ formulario.addEventListener("submit", (evento) => {
 
   consultas.push(nova);
   salvar(consultas);
-  mensagem.textContent = "Consulta agendada.";
+  mensagem.textContent = "Consulta agendada com sucesso!";
   formulario.reset();
   renderizar();
 });
